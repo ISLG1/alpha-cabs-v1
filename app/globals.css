@@ -11,13 +11,15 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.navbar-weight {
-  font-weight: 400;
+/* Custom CSS */
+
+.primary-bg {
+  background: var(--background);
 }
 
 .navbar-bg {
 background: #131315;
-background: radial-gradient(ellipse at center top, #38383C 1%, #131315 75%);
+background: radial-gradient(ellipse at center top, #2d2d30 1%, #131315 95%);
 }
 
 .cta-weight {
@@ -26,4 +28,9 @@ background: radial-gradient(ellipse at center top, #38383C 1%, #131315 75%);
 
 .cta-color {
   background: linear-gradient(45deg, #F89B3A, #FCDA45);
+}
+
+.form-inputs.input {
+  background: #1E1E1F;
+  border: 1px solid #2D2D30;
 }

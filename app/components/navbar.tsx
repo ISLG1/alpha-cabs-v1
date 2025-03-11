@@ -11,20 +11,20 @@ const navbar = () => {
         </div>
         <div className="navbar-menu">
           <div className="navbar-content p-2">
-            <a href="#about" className="navbar-item navbar-weight mx-4">
+            <a href="#about" className="navbar-item font-normal mx-4">
               About
             </a>
-            <a href="#services" className="navbar-item navbar-weight mx-4">
+            <a href="#services" className="navbar-item font-normal mx-4">
               Services
             </a>
-            <a href="#pricing" className="navbar-item navbar-weight mx-4">
+            <a href="#pricing" className="navbar-item font-normal mx-4">
               Pricing
             </a>
           </div>
         </div>
         <div className="navbar-cta">
             <div className="navbar-button">
-                <a href="/contact" className="button cta-color cta-weight px-5 py-3 text-black rounded-full">
+                <a href="/contact" className="button cta-color font-semibold px-5 py-3 text-black rounded-full">
                     BOOK NOW                
                 </a>
             </div>
