@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 const navbar = () => {
   return (
-    <nav className="navbar navbar-bg sticky top-0">
+    <nav className="navbar navbar-bg sticky top-0 z-40">
       <div className="container max-w-7xl mx-auto flex justify-between items-center">
         <div className="navbar-brand p-3">
           <Link href="/" className="navbar-item">
-            <img src="/web_logo.png" alt="Logo" className='max-h-12'/>
+            <img src="/web_logo.png" alt="Logo" className='max-h-10'/>
           </Link>
         </div>
         <div className="navbar-menu">
@@ -25,7 +25,7 @@ const navbar = () => {
         </div>
         <div className="navbar-cta">
             <div className="navbar-button">
-                <Link href="/contact" className="button cta-color font-semibold px-5 py-3 text-black rounded-full">
+                <Link href="/contact" className="button cta-color font-semibold text-sm px-4 py-2 text-black rounded-full">
                     BOOK NOW                
                 </Link>
             </div>

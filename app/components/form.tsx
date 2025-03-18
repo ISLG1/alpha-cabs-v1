@@ -144,14 +144,14 @@ const Form = () => {
       <div className="container max-w-lg bg-white text-black rounded-4xl">
         <div className="maps-section px-5 pt-5 pb-2">
           <iframe
-            className="w-full h-64 rounded-3xl"
+            className="w-full h-48 rounded-3xl"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.466877002103!2d78.68251147510656!3d10.804974589339975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8d07dfef829b%3A0xf58b0b8ea9a7e5e!2sTiruchirappalli!5e0!3m2!1sen!2sin!4v1616406976886!5m2!1sen!2sin"
             allowFullScreen
             loading="lazy"
           ></iframe>
         </div>
         <div className="title-section">
-          <h1 className='text-black font-bold text-3xl px-5 py-2'>
+          <h1 className='text-black font-bold text-3xl px-5'>
             Your Journey, Your Choice <br /> Book Your Cab Now
           </h1>
         </div>
@@ -173,9 +173,9 @@ const Form = () => {
                 formData.trip_type === "outstation" ? "bg-gray-100 opacity-100" : "opacity-25"
               }`}
             >
-              <img src="./outstation.png" alt="Outstation" className="w-10" />
+              <img src="./outstation.png" alt="Outstation" className="w-8" />
             </div>
-            <p className={`pt-2 font-medium transition-all ${
+            <p className={`pt-2 font-medium text-sm transition-all ${
                 formData.trip_type === "outstation" ? "opacity-100" : "opacity-25"
               }`}>
               Outstation
@@ -197,9 +197,9 @@ const Form = () => {
                 formData.trip_type === "hourly" ? "bg-gray-100 opacity-100" : "opacity-25"
               }`}
             >
-              <img src="./hourly.png" alt="Hourly" className="w-10" />
+              <img src="./hourly.png" alt="Hourly" className="w-8" />
             </div>
-            <p className={`pt-2 font-medium transition-all ${
+            <p className={`pt-2 font-medium text-sm transition-all ${
                 formData.trip_type === "hourly" ? "opacity-100" : "opacity-25"
               }`}>
               Hourly
@@ -209,7 +209,7 @@ const Form = () => {
 
         {/* Form Fields */}
         <form onSubmit={handleSubmit} className="form-contents">
-          <div className="form-inputs grid grid-cols-2 gap-4 p-5">
+          <div className="form-inputs grid grid-cols-2 gap-4 px-5 py-3">
             <input type="text" name="name" placeholder="Your name" value={formData.name} required onChange={handleChange} className="text-stone-600 bg-gray-100 p-3 rounded-lg" />
             <input type="tel" name="phone_number" placeholder="Phone number" value={formData.phone_number} required onChange={handleChange} className="text-stone-600 bg-gray-100 p-3 rounded-lg" />
             <input type="text" name="pickup" placeholder="Pickup location" value={formData.pickup} required onChange={handleChange} className="text-stone-600 bg-gray-100 p-3 rounded-lg" />
@@ -239,7 +239,7 @@ const Form = () => {
 
         <div className="border-t border-stone-300 my-2 mx-5"></div>
         <div className="custom-request">
-          <p className='text-center text-stone-600 font-normal p-5'>
+          <p className='text-center text-stone-600 font-normal pt-3 pb-4'>
             Having a custom request? <button onClick={() => window.location.href = "tel:+911234567890"} className='text-primary-500 font-semibold underline'>Call us now</button>
           </p>
         </div>

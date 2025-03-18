@@ -22,10 +22,6 @@ background: #131315;
 background: radial-gradient(ellipse at center top, #2d2d30 1%, #131315 95%);
 }
 
-.cta-weight {
-  font-weight: 600;
-}
-
 .cta-color {
   background: linear-gradient(45deg, #F89B3A, #FCDA45);
 }
