@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className="services-section py-5 w-full">
+    <div className="services-section py-5 w-full h-screen">
         <h1 className='text-2xl font-semibold pt-5 text-center'>Services</h1>
 
         <div className="services-tabs h-60">

@@ -25,8 +25,8 @@ const navbar = () => {
         </div>
         <div className="navbar-cta">
             <div className="navbar-button">
-                <Link href="/contact" className="button cta-color font-semibold text-sm px-4 py-2 text-black rounded-full">
-                    BOOK NOW                
+                <Link href="tel:9944414350" className="button cta-color font-semibold text-sm px-4 py-2 text-black rounded-full">
+                    CALL NOW                
                 </Link>
             </div>
         </div>

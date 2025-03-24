@@ -30,10 +30,6 @@ const page = () => {
         <Services />
       </div>
     </div>
-
-    
-    
-    
     </>
   )
 }

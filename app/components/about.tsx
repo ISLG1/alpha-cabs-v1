@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className="about-section py-5 w-1/3">
+    <div className="about-section py-5 w-1/3 h-screen">
         <h1 className='text-2xl font-semibold pt-5'>About Us</h1>
         <p className='text-md font-medium pt-15'>Alpha Cabs – Fast, Affordable & Reliable Rides in Trichy! <br /><br />
         We offer a range of cab services to make your travel fast, easy, and budget-friendly. 

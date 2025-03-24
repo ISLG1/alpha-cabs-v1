@@ -5,7 +5,7 @@ const Review = () => {
   
   return (
     <div className="review-section pr-5">
-      <div className="container backdrop-blur-2xl backdrop-brightness-125 text-black rounded-4xl bg-white/25">
+      <div className="container backdrop-blur-2xl backdrop-brightness-125 text-black rounded-3xl bg-white/25">
         <div className="grid grid-cols-4 gap-4 p-5 text-white">
           <div className="name flex col-span-3 place-items-center">
             <h2 className='title text-2xl font-semibold pr-3'>Mike Ross</h2>
